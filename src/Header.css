@@ -1,0 +1,59 @@
+.Header{
+    width: 100vw;
+   
+    height: 500px;
+    display: flex;
+    justify-content: flex flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Header h1 {
+  font-size: 60px;
+ 
+}
+
+.Bottom-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Bottom-row h2 {
+    font-size: 45px;
+   
+}
+
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.search input{
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.search button {
+    width: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8em;
+    outline: none;
+    border-radius:20px ;
+    background-color: transparent;
+    border: 2px solid rgb(200, 200, 200);
+}

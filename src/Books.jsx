@@ -21,9 +21,9 @@ const Books = ({book}) => {
                                     <h3 className="title">{item.volumeInfo.title}</h3>
                                     <p className="amount">${amount}</p>
                                 </div>
-                                <Modal show={show} item={bookItem} onClose={()=>setShow(false)}/>
+                               
                             </div>
-                          
+                            <Modal show={show} item={bookItem} onClose={()=>setShow(false)}/>
                             </>
                         )
                     }
